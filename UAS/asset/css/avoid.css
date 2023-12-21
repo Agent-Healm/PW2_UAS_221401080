@@ -1,0 +1,171 @@
+.title
+{
+    font-family: 'Segoe UI Variable Display';
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.container_avoid
+{
+    font-family: 'Segoe UI Variable Text';
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    margin-top: 120px;
+    height : 170px;
+  }
+
+.button
+{
+    font-family: 'Segoe UI Variable Text';
+    font-size: 25px;
+    background-color: aquamarine;
+}
+
+.button#beginner
+{
+    background-color: transparent;
+    border: 3px solid rgb(26, 244, 244);
+    transition-duration: 0.5s;
+    color: #0a58ca;
+}
+
+.button#beginner:hover
+{
+    background-color: rgb(26, 244, 244);
+}
+
+.button#easy
+{
+    background-color: transparent;
+    border: 3px solid rgb(7, 253, 7);;
+    transition-duration: 0.5s;
+    color: #079607;
+}
+
+.button#easy:hover
+{
+    background-color: rgb(7, 253, 7);;
+}
+
+.button#medium
+{
+    background-color: transparent;
+    border: 3px solid rgb(255, 230, 0);
+    transition-duration: 0.5s;
+    color : rgb(155, 130, 0);   
+}
+
+.button#medium:hover
+{
+    background-color: rgb(255, 230, 0);
+}
+
+.button#hard
+{
+    background-color: transparent;
+    border: 3px solid rgb(136, 101, 5);
+    transition-duration: 0.5s;
+    color: rgb(200, 193, 0);
+}
+.button#hard:hover
+{
+    background-color: rgb(136, 101, 5);
+}
+
+.button#extreme
+{
+    background-color: transparent;
+    border: 3px solid rgb(208, 0, 0);
+    transition-duration: 0.5s;
+    color:rgb(208, 208, 208);
+}
+.button#extreme:hover
+{
+    background-color: rgb(208, 0, 0);
+}
+
+.button#impossible
+{
+    background-color: transparent;
+    border: 3px solid rgb(7, 7, 165);
+    transition-duration: 0.5s;
+}
+.button#impossible:hover
+{
+    background-color: rgb(7, 7, 165);
+    color : #d3e380;
+}
+
+.game
+{
+    font-family: 'Segoe UI Variable Text';
+    font-size: larger;
+    text-align: center;
+    align-items: center;
+}
+
+#difficulty
+{
+    font-family: 'Segoe UI Variable Text';
+    font-size: larger;
+    text-align: center;
+    align-items: center;
+}
+
+.reset
+{
+    text-align: center;
+    align-items: center;
+}
+
+.reset_button
+{
+    margin-top: 10px;
+    font-family: 'Segoe UI Variable Text';
+    font-size: larger;
+    background-color: white;
+    border: 3px solid skyblue;
+    transition-duration: 0.3s;
+}
+
+.reset_button:hover
+{
+    background-color: skyblue;
+}
+
+#guess, #check_button
+{
+    font-family: 'Segoe UI Variable Text';
+    font-size: medium;
+}
+
+.message_box
+{
+    font-family: 'Segoe UI Variable Text';
+    font-size: large;
+    align-items: center;
+    text-align: center;
+}
+
+.desc
+{
+    font-family: 'Segoe UI Variable Text';
+    font-size: medium;
+    align-items: center;
+    text-align: center;
+}
+
+footer
+{
+    font-family: 'Segoe UI Variable Text';
+    font-size: small;
+    position: absolute;
+    bottom: 0%;
+}

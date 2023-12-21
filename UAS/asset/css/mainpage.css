@@ -1,0 +1,28 @@
+#play {
+    background-color: transparent;
+    border: 3px dashed black;
+    color : #050505;
+    width : 64px;
+    box-sizing: border-box;
+}
+
+#play:hover {   
+    color: yellow;
+    width : 256px;
+    box-sizing: border-box;
+    background-color: black;
+    border: 3px ridge greenyellow;
+    /* transform : scale(4, 1); */
+    transition-duration: 0.5s;
+}
+.card {
+    color: black;
+    /* opacity: 1;  */
+    background-color: rgba(0,0,0,0);
+    border-width: 0rem;
+} 
+
+.content {
+    margin-top: 140px;
+    height : 150px;
+  }

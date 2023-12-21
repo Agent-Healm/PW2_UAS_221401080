@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.content {
+    margin-top: 60px;
+    height : 230px;
+  }
+  
+h1 {
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005F7F;
+    transition-duration: 0.5s;
+}
+
+p#message {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.modes {
+    margin: 20px 0;
+}
+
+.mode-button {
+    background-color: #777;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+#beginner {
+    background-color: #0a58ca;
+    color: rgb(26, 244, 244);
+}
+
+#beginner.active {
+    background-color: rgb(26, 244, 244);
+    color : #0a58ca;
+    transition-duration: 0.4s;
+}
+
+#easy {
+    background-color: #079607;
+    color: rgb(7, 253, 7);
+}
+
+#easy.active {
+    background-color: rgb(7, 253, 7);
+    color : #079607;
+    transition-duration: 0.4s;
+}
+#medium {
+    background-color: rgb(155, 130, 0);
+    color: rgb(255, 230, 100);
+}
+  
+#medium.active {
+    background-color: rgb(255, 230, 100);
+    color : rgb(155, 130, 0);   
+    transition-duration: 0.4s;
+}
+
+#hard {
+    background-color: #646400;
+    color: rgb(200, 193, 0);
+}
+
+#hard.active {
+    background-color:rgb(200, 193, 0);
+    color:#646464;
+    transition-duration: 0.4s;
+}
+
+#extreme {
+    background-color: #702a4c;
+    color : rgb(208, 0, 0);
+}
+
+#extreme.active {
+    background-color: rgb(208, 0, 0);
+    color:rgb(208, 208, 208);
+    transition-duration: 0.4s;
+}
+#impossible {
+    background-color: rgb(50, 30, 240);
+    color: rgb(100, 190, 250);
+}
+
+#impossible.active {
+    background-color: rgb(0, 0, 208);
+    color : #d3e380;
+    transition-duration: 0.4s;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
